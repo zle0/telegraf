@@ -562,7 +562,8 @@ WHERE	(
 				'Background Writer pages/sec',
 				'Percent Log Used',
 				'Log Send Queue KB',
-				'Redo Queue KB'
+				'Redo Queue KB',
+				'Log Growths'
 			)
 		) OR (
 			object_name LIKE '%User Settable%'
